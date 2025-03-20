@@ -43,7 +43,8 @@ NodeJS [下载安装](https://nodejs.org/en)，本项目已对 `v22.12.0` 版本
 ```bas
 uv sync
 ```
-```if cannot use uv sync u should
+```
+# if cannot use uv sync u should
 uv init
 ```
 
