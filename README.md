@@ -43,11 +43,18 @@ NodeJS [下载安装](https://nodejs.org/en)，本项目已对 `v22.12.0` 版本
 ```bas
 uv sync
 ```
+```if cannot use uv sync u should
+uv init
+```
 
 此时项目目录的 `.venv` 中就创建好了虚拟环境,激活
 ```
 source .venv/bin/activate
 ```
+```windows
+.venv\Scripts\activate.bat
+```
+
 
 ### 2.4 配置编辑
 > Tips: 如何需要配置多个账号ak/sk, 使用轮询机制，可以在conf/目录下增加一个`credential.csv`, 列名分别为**ak**，**sk**， 填入多个ak/sk即可，例如: 
