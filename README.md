@@ -52,7 +52,8 @@ uv init
 ```
 source .venv/bin/activate
 ```
-```windows
+```
+# windows
 .venv\Scripts\activate.bat
 ```
 
